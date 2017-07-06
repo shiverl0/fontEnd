@@ -1,0 +1,52 @@
+*{
+	margin: 0px;
+	padding-top: 20px;
+}
+.main{
+	width: 90%;
+	height: auto;
+	background-color: #E3E3E3;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 20px;
+}
+.left{
+	width: 160px;
+	height: auto;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 20px;
+	overflow: auto;
+}
+.logo{
+	width: 80px;
+	height: 60px;
+	background-color: #E5E5E5;
+	float: left;
+}
+.time{
+	float: right;
+	position: relative;
+	bottom: 20px;
+}
+.right{
+	width: 80px;
+	height: auto;
+	background-color: #FFFFFF;
+	padding: 20px;
+	float: right;
+}
+.right_box{
+	width: 80px;
+	height: 60px;
+	background-color: #E5E5E5;
+	margin-bottom: 10px;
+}
+.center{
+	height: auto;
+	background-color: #FFFFFF;
+	margin-left: 240px;
+	margin-right: 160px;
+	padding: 20px;
+
+}
