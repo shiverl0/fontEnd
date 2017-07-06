@@ -113,4 +113,11 @@ form{
 	text-align: right;
 	padding-right: 30px;
 }
-
+.sub{
+	width: 100%;
+	height: 40px;
+	background-color: #5F96FF;
+	color: #FFFFFF;
+	border-radius: 10px;
+	border: 1px solid #FFFFFF;
+}
