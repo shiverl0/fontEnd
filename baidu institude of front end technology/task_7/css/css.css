@@ -85,5 +85,33 @@ nav ul li a:hover{
 }
 .part_2{
 	height: 250px;
-	background-color: #FC9595;
 }
+.icon{
+	width: 330px;
+	height: 125px;
+	display: inline-block;
+	text-align: center;
+	line-height: 125px;
+
+}
+.icon img{
+	vertical-align: middle;
+}
+.icon_text{
+	width: 328px;
+	height: 60px;
+	display: inline-block;
+	text-align: center;
+	border-right: 2px #808080 solid;
+}
+.icon_text p{
+	color: #808080;
+	cursor: pointer;
+	transition: all .4s ease-in;
+	-webkit-transition: all .2s ease-in;
+
+}
+.icon_text p:hover{
+	color: #e74f4d;
+}
+
