@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 微软雅黑;
+}
+body{
+	min-width: 1280px;
+}
+header{
+	padding: 10px 60px 20px 60px;
+	height: 25px;
+	background-color: #FFFFFF;
+}
+.logo{
+	float: left;
+	font-size: 25px;
+}
+.logo img{
+	vertical-align: middle;
+}
+.login{
+	float: right;
+}
+.login img{
+	vertical-align: middle;
+}
+.login a{
+	text-decoration: none;
+	color: #e74f4d;
+}
+
+nav ul li{
+	list-style-type: none;
+	float: right;
+	width: 100px;
+	text-align: center;
+}
+nav ul li a{
+	color: #787b83;
+	text-decoration: none;
+	display: block;
+	height: 40px;
+}
+nav ul li a:hover{
+	color: #e74f4d;
+	border-bottom: 5px solid #e74f4d;
+	font-weight: bold;
+}
+.part_1{
+	height: 690px;
+	background: url(img/firstPart.jpg) no-repeat;
+	background-size: cover;
+}
+.part_1 h1,p{
+	color: #FFFFFF;
+}
+.part_1 h1{
+	font-size: 60px;
+	font-weight: 100;
+	position: absolute;
+	top: 300px;
+	left: 115px;
+}
+.part_1 p{
+	font-size: 25px;
+	position: absolute;
+	top: 400px;
+	left: 120px;
+}
+.part_1 .btn{
+	width: 290px;
+	height: 70px;
+	background-color: #F76868;
+	color: #FFFFFF;
+	border: none;
+	font-size: 35px;
+	position: absolute;
+	top: 530px;
+	left: 120px;
+}
+.part_1 .btn:hover{
+	background-color: #FFFFFF;
+	color: #F76868;
+	border: none;
+}
+.part_2{
+	height: 250px;
+	background-color: #FC9595;
+}
