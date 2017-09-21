@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript方法练习</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- 【开始】插入节点——appendChild() -->
+	<!-- appendChild的作用是：在该父节点的最后一个子节点的后面再添加一个子节点 -->
+	<div id="appChild">     
+		<p id="x1">HTML</p>
+		<p>JavaScript</p>
+	</div>   
+	<!-- JS代码 -->
+	<script type="text/javascript">
+		var otest = document.getElementById("appChild");
+		var newnode = document.createElement("p");
+		newnode.innerHTML = "This is a new p";
+		otest.appendChild(newnode);
+	</script>
+	<!-- 【结尾】插入节点——appendChild() -->
+	
+	<!-- 【开始】插入节点inserBefore() -->
+	<!-- inserBefore的作用是：在已有子节点前插入一个新的子节点 -->
+	<div id="inserBe">
+		<p id="x2">JavaScript</p>
+		<p>HTML</p>
+	</div>
+	<!-- JS代码 -->
+	<script type="text/javascript">
+		var intest = document.getElementById("inserBe");
+		var node = document.getElementById("x2");
+		var newp = document.createElement("p");
+		newnp.innerHTML = "This is a new p";
+		intest.inserBefore(newp,node);
+	</script>
+
+</body>
+</html>

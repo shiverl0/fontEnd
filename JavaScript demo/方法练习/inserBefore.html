@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript方法练习</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- 【开始】插入节点inserBefore() -->
+	<!-- inserBefore的作用是：在已有子节点前插入一个新的子节点 -->
+	<div id="inserBe">
+		<p id="x2">JavaScript</p>
+		<p>HTML</p>
+	</div>
+	<!-- JS代码 -->
+	<script type="text/javascript">
+		var intest = document.getElementById("inserBe");
+		var node = document.getElementById("x2");
+		var newp = document.createElement("p");
+		newp.innerHTML = "This is a new p";
+		intest.inserBefore(newp,node);
+	</script>
+
+</body>
+</html>
